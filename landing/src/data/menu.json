@@ -9,31 +9,31 @@
         "submenu": [
             {
                 "title": "Real Estate",
-                "path": "/index-banner"
+                "path": "/real-estate"
             },
             {
                 "title": "Cinematic",
-                "path": "/index-particle"
+                "path": "/cinematic"
             },
             {
                 "title": "Construction",
-                "path": "/index-slider"
+                "path": "/construction"
             },
             {
                 "title": "Utilities & Inspections",
-                "path": "/index-slider"
+                "path": "/utilities"
             },
             {
                 "title": "Agriculture",
-                "path": "/index-blog"
+                "path": "/agriculture"
             },
             {
                 "title": "UAS Consulting",
-                "path": "/index-video"
+                "path": "/consulting"
             },
             {
                 "title": "FAA Exam Prep",
-                "path": "/index-video"
+                "path": "/training"
             }
         ]
     },
