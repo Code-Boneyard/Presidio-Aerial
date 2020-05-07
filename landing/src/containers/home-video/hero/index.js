@@ -56,7 +56,7 @@ const Hero = (props) => {
                 <ContentLeft>
                   {date && <Text {...descStyle}>{date}</Text>}
                   {title && <Heading {...headingStyle}>{title}</Heading>}
-                  {btn_link && <Button as={Link} to={btn_link} layout={2}>Book Services Online!<i className="ti-arrow-right"></i></Button>}
+                  {btn_link && <Button as={Link} to={btn_link} layout={2}>Schedule Online!<i className="ti-arrow-right"></i></Button>}
                 </ContentLeft>
                 <ContentRight>
                   <VideoBtn onClick={modalVideoOpen}>

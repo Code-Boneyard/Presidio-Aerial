@@ -31,10 +31,6 @@
             {
                 "title": "Consulting",
                 "path": "/index-video"
-            },
-                        {
-                "title": "Training",
-                "path": "/index-video"
             }
         ]
 
@@ -48,26 +44,14 @@
         "path": "/contact"
     },
     {
-        "title": "stock",
-        "isSubmenu": true,
-        "submenu": [
-            {
-                "title": "Stock Video",
-                "path": "/index-particle"
-            },
-            {
-                "title": "Stock Images",
-                "path": "/index-particle"
-            }
-
-        ]
+        "title": "Stock Media"
     },
     {
-        "title": "Shop",
+        "title": "Shop UAS",
         "isSubmenu": true,
         "submenu": [
             {
-                "title": "Aerial Supply",
+                "title": "Drones & UAS",
                 "path": "/index-particle"
             },
             {
