@@ -15,9 +15,12 @@
                 "title": "Cinematic",
                 "path": "/index-particle"
             },
-
             {
                 "title": "Construction",
+                "path": "/index-slider"
+            },
+            {
+                "title": "Utilities & Inspections",
                 "path": "/index-slider"
             },
             {
@@ -25,11 +28,11 @@
                 "path": "/index-blog"
             },
             {
-                "title": "Utility Inspections",
-                "path": "/index-blog"
+                "title": "UAS Consulting",
+                "path": "/index-video"
             },
             {
-                "title": "Consulting",
+                "title": "FAA Exam Prep",
                 "path": "/index-video"
             }
         ]
