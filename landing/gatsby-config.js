@@ -8,11 +8,11 @@ module.exports = {
   siteMetadata: {
     title: "Presidio Aerial Solutions",
     titleTemplate: `Your FAA Part 107 Partner`,
-    description: `TheRN specially built for Creative Agency, Corporate website, Portfolio website, Photographer, Personal Portfolio and all kinds of Personal Portfolio & Business and others. This Modern and Professional template offers Modern animation, Smooth Scrolling Animation sites etc.`,
+    description: `Presidio Aerial Solutions is a aerial photography and videography company in San Francisco, CA`,
     author: `Max M. Geller`,
     twitterUsername: `presidio-aerial`,
     image: 'bg-image-1.jpg',
-    siteUrl: 'http://www.presidioaerial.net/',
+    siteUrl: 'http://www.presidioaerial.com/',
     contact: {
       postal_code: '2351 Powell Street #509 <br> San Francisco, CA 94133',
       address: '2351 Powell Street #509 <br> San Francisco, CA 94133 <br> (415) 854-6600',
@@ -40,8 +40,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Thern`,
-        short_name: `Thern`,
+        name: `Presidio`,
+        short_name: `Presidio`,
         start_url: `/`,
         background_color: `#333333`,
         theme_color: `#001c43`,
