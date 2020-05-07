@@ -8,7 +8,7 @@ const Banner = () => {
             pagedataJson(id: {eq: "project_page_data"}) {
                 banner_img {
                     childImageSharp {
-                        fluid(maxWidth: 1920, maxHeight: 750, quality: 100) {
+                        fluid(maxWidth: 1920, maxHeight: 250, quality: 100) {
                             ...GatsbyImageSharpFluid_withWebp
                             presentationWidth
                             presentationHeight
