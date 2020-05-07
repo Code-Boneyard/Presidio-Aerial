@@ -42,7 +42,7 @@ module.exports = {
       options: {
         name: `Presidio`,
         short_name: `Presidio`,
-        start_url: `/`,
+        start_url: `/index-video`,
         background_color: `#333333`,
         theme_color: `#001c43`,
         display: `standalone`,
