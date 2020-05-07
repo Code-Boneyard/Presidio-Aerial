@@ -1,20 +1,23 @@
 import React from "react"
 import SEO from '../components/seo';
-import Layout from '../containers/preview/layout'
-import Header from '../containers/preview/header'
-import Footer from '../containers/preview/footer'
-import Hero from '../containers/preview/hero'
-import Demo from '../containers/preview/demo'
+import Layout from '../containers/layout/layout'
+import Hero from '../containers/home-video/hero'
+import Story from '../containers/home-video/story'
+import ProjectSection from '../containers/home-video/project'
+import TestimonialSection from '../containers/home-video/testimonial'
+import ClientSection from '../containers/home-video/clients'
+import VideoSection from '../containers/home-video/video'
+import BlogSection from '../containers/home-video/blog'
 
 export default () => (
-    <Layout>
-        <SEO title="Home"/>
-        <Header/>
-        <main className="page-content">
-            <Hero/>
-            <Demo/>
-        </main>
-        <Footer/>
-    </Layout>
-)
- 
+    <Layout headerLayout={2}>
+        <SEO title="Presidio Aerial Solutions - San Francisco Drone Photography"/>
+        <Hero/>
+        <Story/>
+        <ProjectSection/>
+        <TestimonialSection/>
+        <ClientSection/>
+        <VideoSection/>
+        <Story/>
+        <BlogSection/>
+    </Layout>)

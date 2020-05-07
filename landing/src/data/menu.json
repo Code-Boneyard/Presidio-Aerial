@@ -36,7 +36,6 @@
                 "path": "/index-video"
             }
         ]
-
     },
     {
         "title": "portfolio",
@@ -47,10 +46,25 @@
         "path": "/contact"
     },
     {
-        "title": "Stock Media"
+        "title": "Media",
+        "isSubmenu": true,
+        "submenu": [
+            {
+                "title": "Stock Video Clips",
+                "path": "/index-particle"
+            },
+            {
+                "title": "Stock Photography",
+                "path": "/index-video"
+            },
+            {
+                "title": "Art / Print Sales",
+                "path": "/index-video"
+            }
+        ]
     },
     {
-        "title": "Shop UAS",
+        "title": "Shop",
         "isSubmenu": true,
         "submenu": [
             {
@@ -58,11 +72,11 @@
                 "path": "/index-particle"
             },
             {
-                "title": "FPV Custom Shop",
-                "path": "/index-video"
+                "title": "Camera & Video",
+                "path": "/index-particle"
             },
             {
-                "title": "Art / Prints",
+                "title": "FPV Custom Shop",
                 "path": "/index-video"
             }
         ]
