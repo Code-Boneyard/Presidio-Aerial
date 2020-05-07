@@ -6,25 +6,19 @@ const FooterMenu = () => {
     return (
         <FooterMenuWrap>
             <FooterMenuList>
-                <Link to="/" className="no-cursor">Affiliates</Link>
+                <Link to="/privacy" className="no-cursor">Privacy</Link>
             </FooterMenuList>
             <FooterMenuList>
-                <Link to="/" className="no-cursor">Privacy</Link>
+                <Link to="/cookies" className="no-cursor">Cookies</Link>
             </FooterMenuList>
             <FooterMenuList>
-                <Link to="/" className="no-cursor">Cookies</Link>
+                <Link to="/site-map" className="no-cursor">Sitemap</Link>
             </FooterMenuList>
             <FooterMenuList>
-                <Link to="/" className="no-cursor">SERVICES</Link>
+                <Link to="/press" className="no-cursor">Press</Link>
             </FooterMenuList>
             <FooterMenuList>
-                <Link to="/" className="no-cursor">Sitemap</Link>
-            </FooterMenuList>
-            <FooterMenuList>
-                <Link to="/" className="no-cursor">Press</Link>
-            </FooterMenuList>
-            <FooterMenuList>
-                <Link to="/" className="no-cursor">Careers</Link>
+                <Link to="/careers" className="no-cursor">Careers</Link>
             </FooterMenuList>
         </FooterMenuWrap>
     )
