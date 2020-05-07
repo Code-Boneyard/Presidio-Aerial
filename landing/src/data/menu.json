@@ -1,0 +1,87 @@
+[
+    {
+        "title": "home",
+        "path": "/"
+    },
+    {
+        "title": "services",
+        "isSubmenu": true,
+        "submenu": [
+            {
+                "title": "Real Estate",
+                "path": "/index-banner"
+            },
+            {
+                "title": "Cinematic",
+                "path": "/index-particle"
+            },
+
+            {
+                "title": "Construction",
+                "path": "/index-slider"
+            },
+            {
+                "title": "Agriculture",
+                "path": "/index-blog"
+            },
+            {
+                "title": "Utility Inspections",
+                "path": "/index-blog"
+            },
+            {
+                "title": "Consulting",
+                "path": "/index-video"
+            },
+                        {
+                "title": "Training",
+                "path": "/index-video"
+            }
+        ]
+
+    },
+    {
+        "title": "portfolio",
+        "path": "/project"
+    },
+    {
+        "title": "training",
+        "path": "/contact"
+    },
+    {
+        "title": "stock",
+        "isSubmenu": true,
+        "submenu": [
+            {
+                "title": "Stock Video",
+                "path": "/index-particle"
+            },
+            {
+                "title": "Stock Images",
+                "path": "/index-particle"
+            }
+
+        ]
+    },
+    {
+        "title": "Shop",
+        "isSubmenu": true,
+        "submenu": [
+            {
+                "title": "Aerial Supply",
+                "path": "/index-particle"
+            },
+            {
+                "title": "FPV Custom Shop",
+                "path": "/index-video"
+            },
+            {
+                "title": "Art / Prints",
+                "path": "/index-video"
+            }
+        ]
+    },
+    {
+        "title": "contact",
+        "path": "/contact"
+    }
+]
