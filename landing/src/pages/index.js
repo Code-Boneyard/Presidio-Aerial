@@ -11,7 +11,7 @@ import JoinOurTeam from '../containers/company/join-our-team'
 
 export default () => (
     <Layout headerLayout={2}>
-        <SEO title="Presidio Aerial Solutions - San Francisco Drone Photography"/>
+        <SEO title="Presidio Aerial Solutions - San Francisco Drone Photography and Stock Media"/>
         <Hero/>
         <Story/>
         <Team/>
