@@ -5,19 +5,18 @@ import Hero from '../containers/home-video/hero'
 import Story from '../containers/home-video/story'
 import ProjectSection from '../containers/home-video/project'
 import TestimonialSection from '../containers/home-video/testimonial'
-import ClientSection from '../containers/home-video/clients'
-import VideoSection from '../containers/home-video/video'
 import BlogSection from '../containers/home-video/blog'
+import Team from '../containers/company/team'
+import JoinOurTeam from '../containers/company/join-our-team'
 
 export default () => (
     <Layout headerLayout={2}>
         <SEO title="Presidio Aerial Solutions - San Francisco Drone Photography"/>
         <Hero/>
         <Story/>
+        <Team/>
         <ProjectSection/>
         <TestimonialSection/>
-        <ClientSection/>
-        <VideoSection/>
-        <Story/>
+        <JoinOurTeam/>
         <BlogSection/>
     </Layout>)
