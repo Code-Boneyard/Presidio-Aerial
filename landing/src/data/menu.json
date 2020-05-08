@@ -38,12 +38,12 @@
         ]
     },
     {
-        "title": "portfolio",
+        "title": "clients",
         "path": "/project"
     },
     {
         "title": "training",
-        "path": "/contact"
+        "path": "/training"
     },
     {
         "title": "Media",
@@ -51,15 +51,15 @@
         "submenu": [
             {
                 "title": "Stock Video Clips",
-                "path": "/index-particle"
+                "path": "/media/video"
             },
             {
                 "title": "Stock Photography",
-                "path": "/index-video"
+                "path": "/media/photo"
             },
             {
                 "title": "Art / Print Sales",
-                "path": "/index-video"
+                "path": "/art"
             }
         ]
     },
@@ -68,16 +68,16 @@
         "isSubmenu": true,
         "submenu": [
             {
-                "title": "Drones & UAS",
-                "path": "/index-particle"
+                "title": "Drones & UAS Sales",
+                "path": "/shop/drones"
             },
             {
                 "title": "Camera & Video",
-                "path": "/index-particle"
+                "path": "/shop/cameras"
             },
             {
                 "title": "FPV Custom Shop",
-                "path": "/index-video"
+                "path": "/shop/fpv"
             }
         ]
     },
