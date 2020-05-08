@@ -9,31 +9,31 @@
         "submenu": [
             {
                 "title": "Real Estate",
-                "path": "/real-estate"
+                "path": "/services/real-estate"
             },
             {
                 "title": "Cinematic",
-                "path": "/cinematic"
+                "path": "/services/cinematic"
             },
             {
                 "title": "Construction",
-                "path": "/construction"
+                "path": "/services/construction"
             },
             {
                 "title": "Utilities & Inspections",
-                "path": "/utilities"
+                "path": "/services/utilities"
             },
             {
                 "title": "Agriculture",
-                "path": "/agriculture"
+                "path": "/services/agriculture"
             },
             {
                 "title": "UAS Consulting",
-                "path": "/consulting"
+                "path": "/services/consulting"
             },
             {
                 "title": "FAA Exam Prep",
-                "path": "/training"
+                "path": "/services/training"
             }
         ]
     },
@@ -43,7 +43,7 @@
     },
     {
         "title": "training",
-        "path": "/training"
+        "path": "/services/training"
     },
     {
         "title": "Media",
@@ -51,15 +51,15 @@
         "submenu": [
             {
                 "title": "Stock Video Clips",
-                "path": "/media/video"
+                "path": "/media/stock-video"
             },
             {
                 "title": "Stock Photography",
-                "path": "/media/photo"
+                "path": "/media/stock-photo"
             },
             {
                 "title": "Art / Print Sales",
-                "path": "/art"
+                "path": "/media/art"
             }
         ]
     },
