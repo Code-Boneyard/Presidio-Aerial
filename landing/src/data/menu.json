@@ -4,28 +4,42 @@
         "path": "/"
     },
     {
-        "title": "services",
+        "title": "industries",
         "isSubmenu": true,
         "submenu": [
             {
                 "title": "Real Estate",
-                "path": "/services/real-estate"
+                "path": "/industries/real-estate"
             },
             {
                 "title": "Cinematic",
-                "path": "/services/cinematic"
+                "path": "/industries/cinematic"
+            },
+            {
+                "title": "events",
+                "path": "/industries/events"
             },
             {
                 "title": "Construction",
-                "path": "/services/construction"
+                "path": "/industries/construction"
             },
             {
                 "title": "Utilities & Inspections",
-                "path": "/services/utilities"
+                "path": "/industries/utilities"
             },
             {
                 "title": "Agriculture",
-                "path": "/services/agriculture"
+                "path": "/industries/agriculture"
+            }
+        ]
+    },
+    {
+        "title": "services",
+        "isSubmenu": true,
+        "submenu": [
+            {
+                "title": "Aerial Solutions",
+                "path": "/services/aerial"
             },
             {
                 "title": "UAS Consulting",
@@ -36,10 +50,6 @@
                 "path": "/services/training"
             }
         ]
-    },
-    {
-        "title": "clients",
-        "path": "/project"
     },
     {
         "title": "training",
@@ -56,10 +66,6 @@
             {
                 "title": "Stock Photography",
                 "path": "/media/stock-photo"
-            },
-            {
-                "title": "Art / Print Sales",
-                "path": "/media/art"
             }
         ]
     },
@@ -72,12 +78,16 @@
                 "path": "/shop/drones"
             },
             {
-                "title": "Camera & Video",
-                "path": "/shop/cameras"
+                "title": "Equipment Rentals",
+                "path": "/shop/rentals"
             },
             {
                 "title": "FPV Custom Shop",
                 "path": "/shop/fpv"
+            },
+            {
+                "title": "Art / Print Sales",
+                "path": "/shop/art"
             }
         ]
     },
