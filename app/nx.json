@@ -1,0 +1,71 @@
+{
+  "npmScope": "presidio",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/workspace/tasks-runners/default",
+      "options": {
+        "cacheableOperations": ["build", "lint", "test", "e2e"]
+      }
+    }
+  },
+  "projects": {
+    "landing": {
+      "tags": []
+    },
+    "landing-e2e": {
+      "tags": [],
+      "implicitDependencies": ["landing"]
+    },
+    "api": {
+      "tags": []
+    },
+    "api-interfaces": {
+      "tags": []
+    },
+    "stock": {
+      "tags": []
+    },
+    "stock-e2e": {
+      "tags": [],
+      "implicitDependencies": ["stock"]
+    },
+    "booking": {
+      "tags": []
+    },
+    "booking-e2e": {
+      "tags": [],
+      "implicitDependencies": ["booking"]
+    },
+    "training": {
+      "tags": []
+    },
+    "training-e2e": {
+      "tags": [],
+      "implicitDependencies": ["training"]
+    },
+    "admin": {
+      "tags": []
+    },
+    "admin-e2e": {
+      "tags": [],
+      "implicitDependencies": ["admin"]
+    },
+    "art": {
+      "tags": []
+    },
+    "art-e2e": {
+      "tags": [],
+      "implicitDependencies": ["art"]
+    }
+  }
+}
