@@ -8,7 +8,7 @@
     }, 
     {
         "id": "video_story_section_contnet",
-        "title": "Our clients usually say that our compromise with innovation and the strategy.",
+        "title": "A History of Serving the Bay Area",
         "subtitle": "Our Story",
         "image": "./images/about.jpg",
         "path": "/company",
@@ -32,7 +32,7 @@
     },
     {
         "id": "video_recent_post_section_content",
-        "title": "Our Recent posts",
-        "subtitle": "SAMPLE THE GOODS"
+        "title": "Our Recent Posts",
+        "subtitle": "LATEST NEWS"
     }
 ]

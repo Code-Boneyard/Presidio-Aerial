@@ -108,7 +108,6 @@ const ProjectTemplate = ({data, pageContext: {next, previous}, ...restProps}) =>
                     <div className="col-1 offset-1">
                         <SectionTitle
                             title={next ? "Next Project": "Previous Project"}
-                            subtitle="Sample the Goods"
                         />
                     </div>
 
