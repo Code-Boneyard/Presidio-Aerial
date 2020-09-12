@@ -1,9 +1,3 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
-
 module.exports = {
   siteMetadata: {
     title: "Presidio Aerial Solutions",
@@ -25,6 +19,8 @@ module.exports = {
         facebook: 'https://facebook.com',
         twitter: 'https://twitter.com',
         linkedin: 'https://linkedin.com',
+        instagram: 'https://dribbble.com',
+        youtube: 'https://dribbble.com',
         dribbble: 'https://dribbble.com'
       }
     },
@@ -32,7 +28,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-styled-components`,
-    `gatsby-transformer-sharp`, 
+    `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-json`,
@@ -46,8 +42,7 @@ module.exports = {
         background_color: `#333333`,
         theme_color: `#001c43`,
         display: `standalone`,
-        "icons": [
-          {
+        "icons": [{
             "src": "/icons/icon-72x72.png",
             "sizes": "72x72",
             "type": "image/png"
@@ -95,32 +90,31 @@ module.exports = {
       options: {
         host: 'http://thern.rainbowit.net/',
         sitemap: 'http://thern.rainbowit.net/sitemap.xml',
-        policy: [{ userAgent: '*', allow: '/' }]
+        policy: [{
+          userAgent: '*',
+          allow: '/'
+        }]
       }
     },
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 1920
-            },
+        plugins: [{
+          resolve: `gatsby-remark-images`,
+          options: {
+            maxWidth: 1920
           },
-        ],
+        }, ],
       },
     },
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
-        fonts: [
-          {
-            family: `Poppins`,
-            subsets: [`latin`],
-            variants: [`300`, `300i`, `400`, `400i`, `500`, `600`, `700`, `900`]
-          }
-        ],
+        fonts: [{
+          family: `Poppins`,
+          subsets: [`latin`],
+          variants: [`300`, `300i`, `400`, `400i`, `500`, `600`, `700`, `900`]
+        }],
       },
     },
     {
