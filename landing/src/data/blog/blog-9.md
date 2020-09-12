@@ -1,12 +1,12 @@
 ---
-title: 'Commodi ullam sint et excepturi error explicabo enim ipsam voluptatem quia voluptas sit'
-date: 2020-02-17 02:00:00
-author: 'theRN'
+title: 'San Franciscos Bizzare Orange Skies'
+date: 2020-09-09 02:00:00
+author: 'Max Geller'
 id: 'blog-9'
-image: './images/blog-9/blog-9.jpg'
+image: './images/blog-9/blog-9.png'
 categories: 
     - react
-shortDesc: 'I do not hate him, they are welcome nlabore pleasures of life because they are ninventore'
+shortDesc: 'Local fires have created some strange weather events in the San Francisco Bay Area.  Presidio Aerial was able to capture the incredible footage...'
 ---
 
 <div class="rn-blog-meta-area section-pb-xl">

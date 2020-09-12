@@ -1,12 +1,12 @@
 ---
-title: 'Hsint suscipit perspiciatis velit dolorum rerum ipsa are many variations of passages of Lorem Ipsum'
-date: 2020-02-16 02:00:00
-author: 'theRN'
+title: 'Our latest Compliation Video is Out!'
+date: 2020-09-09 02:00:00
+author: 'Max Geller'
 id: 'blog-8'
 image: './images/blog-8/blog-8.jpg'
 categories: 
     - react
-shortDesc: 'I do not hate him, they are welcome nlabore pleasures of life because they are ninventore'
+shortDesc: 'The 2019 flight compilation video is available now....'
 ---
 
 <div class="rn-blog-meta-area section-pb-xl">
