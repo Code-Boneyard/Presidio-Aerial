@@ -1,12 +1,12 @@
 ---
-title: 'San Franciscos Bizzare Orange Skies'
+title: 'San Francisco Encounters Bizzare Orange Skies'
 date: 2020-09-09 02:00:00
 author: 'Max Geller'
 id: 'blog-9'
 image: './images/blog-9/blog-9.png'
 categories: 
     - react
-shortDesc: 'Local fires have created some strange weather events in the San Francisco Bay Area.  Presidio Aerial was able to capture the incredible footage...'
+shortDesc: 'Local fires have created some strange weather...'
 ---
 
 <div class="rn-blog-meta-area section-pb-xl">
