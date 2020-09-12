@@ -16,8 +16,8 @@ module.exports = {
     contact: {
       postal_code: '2351 Powell Street #509 <br> San Francisco, CA 94133',
       address: '2351 Powell Street #509 <br> San Francisco, CA 94133 <br> (415) 854-6600',
-      email: 'success@presidioaerial.com',
-      company_email: 'success@presidioaerial.com',
+      email: 'solutions@presidioaerial.com',
+      company_email: 'solutions@presidioaerial.com',
       company_address: '2351 Powell Street #509 <br> San Francisco, CA 94133',
       phone: '(415) 854-6600',
       phone2: '(415) 542-8218',
