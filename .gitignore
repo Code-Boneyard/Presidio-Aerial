@@ -1,14 +1,5 @@
-
-# Compiled binary addons (https://nodejs.org/api/addons.html)
-build/Release
-
-# Dependency directories
-node_modules/
-jspm_packages/
-public/
-landing/public/
-
-dist
-
-# Gatsby files
-.cache/
+/app/node_modules
+/app/dist
+/landing/public
+/landing/.cache
+/landing/node_modules
