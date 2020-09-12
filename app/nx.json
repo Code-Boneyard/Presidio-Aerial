@@ -26,12 +26,6 @@
       "tags": [],
       "implicitDependencies": ["landing"]
     },
-    "api": {
-      "tags": []
-    },
-    "api-interfaces": {
-      "tags": []
-    },
     "stock": {
       "tags": []
     },
