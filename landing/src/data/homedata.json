@@ -20,7 +20,7 @@
     {
         "id": "project_section_content",
         "title": "Our Awesome Project",
-        "subtitle": "SAMPLE THE GOODS"
+        "subtitle": "RECENT PROJECTS"
     },
     {
         "id": "clients_section_content",
@@ -34,6 +34,6 @@
     {
         "id": "recent_post_section_content",
         "title": "Our Recent posts",
-        "subtitle": "SAMPLE THE GOODS"
+        "subtitle": "NEWS FEED"
     }
 ]
