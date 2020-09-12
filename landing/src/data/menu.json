@@ -1,13 +1,11 @@
-[
-    {
+[{
         "title": "home",
         "path": "/"
     },
     {
         "title": "solutions",
         "isSubmenu": true,
-        "submenu": [
-            {
+        "submenu": [{
                 "title": "Real Estate",
                 "path": "/industries/real-estate"
             },
@@ -36,8 +34,7 @@
     {
         "title": "services",
         "isSubmenu": true,
-        "submenu": [
-            {
+        "submenu": [{
                 "title": "Aerial Solutions",
                 "path": "/services/aerial"
             },
@@ -54,8 +51,7 @@
     {
         "title": "Media",
         "isSubmenu": true,
-        "submenu": [
-            {
+        "submenu": [{
                 "title": "Stock Video Clips",
                 "path": "/media/stock-video"
             },
@@ -68,8 +64,7 @@
     {
         "title": "Shop",
         "isSubmenu": true,
-        "submenu": [
-            {
+        "submenu": [{
                 "title": "Drones & UAS Sales",
                 "path": "/shop/drones"
             },
@@ -86,5 +81,9 @@
                 "path": "/shop/art"
             }
         ]
+    },
+    {
+        "title": "client login",
+        "path": "/"
     }
 ]
