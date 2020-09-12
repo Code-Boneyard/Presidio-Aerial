@@ -1,9 +1,9 @@
 {
-    "id": "business-agency",
-    "title": "Smart Business Agency",
-    "client": "Jonas Khandawald",
-    "sector": "commercial",
-    "year": "2009 - 2019",
+    "id": "sf-crime-lab",
+    "title": "San Francisco Crime Lab Aerials",
+    "client": "HCI",
+    "sector": "Construction",
+    "year": "2020",
     "featured_image": "./images/business-agency/featured_image.jpg",
     "is_featured": true,
     "body": [
