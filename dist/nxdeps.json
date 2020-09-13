@@ -679,10 +679,11 @@
                 "aot": true,
                 "assets": [
                   "apps/landing/src/favicon.ico",
-                  "apps/landing/src/assets"
+                  "apps/landing/src/assets",
+                  "apps/landing/src/_redirects"
                 ],
                 "styles": [
-                  "apps/landing/src/styles.scss"
+                  "apps/landing/src/assets/styles/styles.scss"
                 ],
                 "scripts": []
               },
@@ -778,7 +779,7 @@
             {
               "file": "apps/landing/src/app/app.component.html",
               "ext": ".html",
-              "mtime": 1599958004533.171
+              "mtime": 1599958393546.1753
             },
             {
               "file": "apps/landing/src/app/app.component.spec.ts",
@@ -793,12 +794,12 @@
             {
               "file": "apps/landing/src/app/app.module.ts",
               "ext": ".ts",
-              "mtime": 1599956246398.918
+              "mtime": 1599958658480.4202
             },
             {
-              "file": "apps/landing/src/app/nav/footer/footer.component.css",
-              "ext": ".css",
-              "mtime": 1599956246398.918
+              "file": "apps/landing/src/app/app.routes.ts",
+              "ext": ".ts",
+              "mtime": 1599958133402.9475
             },
             {
               "file": "apps/landing/src/app/nav/footer/footer.component.html",
@@ -813,37 +814,52 @@
             {
               "file": "apps/landing/src/app/nav/footer/footer.component.ts",
               "ext": ".ts",
-              "mtime": 1599956246400.9128
-            },
-            {
-              "file": "apps/landing/src/app/nav/menu/menu.component.css",
-              "ext": ".css",
-              "mtime": 1599956246400.9128
-            },
-            {
-              "file": "apps/landing/src/app/nav/menu/menu.component.html",
-              "ext": ".html",
-              "mtime": 1599956246401.9102
-            },
-            {
-              "file": "apps/landing/src/app/nav/menu/menu.component.spec.ts",
-              "ext": ".ts",
-              "mtime": 1599956246401.9102
-            },
-            {
-              "file": "apps/landing/src/app/nav/menu/menu.component.ts",
-              "ext": ".ts",
-              "mtime": 1599956246402.9075
+              "mtime": 1599958061941.2122
             },
             {
               "file": "apps/landing/src/app/nav/nav.module.ts",
               "ext": ".ts",
-              "mtime": 1599956246402.9075
+              "mtime": 1599958043610.8237
+            },
+            {
+              "file": "apps/landing/src/app/pages/home/home.component.css",
+              "ext": ".css",
+              "mtime": 1599958658479.4246
+            },
+            {
+              "file": "apps/landing/src/app/pages/home/home.component.html",
+              "ext": ".html",
+              "mtime": 1599958658459.5063
+            },
+            {
+              "file": "apps/landing/src/app/pages/home/home.component.spec.ts",
+              "ext": ".ts",
+              "mtime": 1599958658466.4568
+            },
+            {
+              "file": "apps/landing/src/app/pages/home/home.component.ts",
+              "ext": ".ts",
+              "mtime": 1599958658474.4358
             },
             {
               "file": "apps/landing/src/assets/.gitkeep",
               "ext": "",
               "mtime": 1599956246403.9048
+            },
+            {
+              "file": "apps/landing/src/assets/styles/components/components.scss",
+              "ext": ".scss",
+              "mtime": 1599958630491.8435
+            },
+            {
+              "file": "apps/landing/src/assets/styles/components/_footer.scss",
+              "ext": ".scss",
+              "mtime": 1599958630491.8435
+            },
+            {
+              "file": "apps/landing/src/assets/styles/styles.scss",
+              "ext": ".scss",
+              "mtime": 1599958215436.965
             },
             {
               "file": "apps/landing/src/environments/environment.prod.ts",
@@ -876,14 +892,14 @@
               "mtime": 1599956246406.8965
             },
             {
-              "file": "apps/landing/src/styles.scss",
-              "ext": ".scss",
-              "mtime": 1599956246406.8965
-            },
-            {
               "file": "apps/landing/src/test-setup.ts",
               "ext": ".ts",
               "mtime": 1599956246407.8938
+            },
+            {
+              "file": "apps/landing/src/_redirects",
+              "ext": "",
+              "mtime": 1599958260686.276
             },
             {
               "file": "apps/landing/tsconfig.app.json",
@@ -1957,83 +1973,19 @@
           "files": []
         }
       },
+      "@angular-devkit/build-angular": {
+        "type": "npm",
+        "name": "@angular-devkit/build-angular",
+        "data": {
+          "version": "0.901.0",
+          "files": []
+        }
+      },
       "@angular/cli": {
         "type": "npm",
         "name": "@angular/cli",
         "data": {
           "version": "9.1.0",
-          "files": []
-        }
-      },
-      "@nrwl/workspace": {
-        "type": "npm",
-        "name": "@nrwl/workspace",
-        "data": {
-          "version": "9.2.2",
-          "files": []
-        }
-      },
-      "@types/node": {
-        "type": "npm",
-        "name": "@types/node",
-        "data": {
-          "version": "~8.9.4",
-          "files": []
-        }
-      },
-      "dotenv": {
-        "type": "npm",
-        "name": "dotenv",
-        "data": {
-          "version": "6.2.0",
-          "files": []
-        }
-      },
-      "ts-node": {
-        "type": "npm",
-        "name": "ts-node",
-        "data": {
-          "version": "~7.0.0",
-          "files": []
-        }
-      },
-      "tslint": {
-        "type": "npm",
-        "name": "tslint",
-        "data": {
-          "version": "~6.0.0",
-          "files": []
-        }
-      },
-      "eslint": {
-        "type": "npm",
-        "name": "eslint",
-        "data": {
-          "version": "6.8.0",
-          "files": []
-        }
-      },
-      "typescript": {
-        "type": "npm",
-        "name": "typescript",
-        "data": {
-          "version": "~3.8.3",
-          "files": []
-        }
-      },
-      "prettier": {
-        "type": "npm",
-        "name": "prettier",
-        "data": {
-          "version": "1.19.1",
-          "files": []
-        }
-      },
-      "@nrwl/nest": {
-        "type": "npm",
-        "name": "@nrwl/nest",
-        "data": {
-          "version": "9.2.2",
           "files": []
         }
       },
@@ -2053,86 +2005,6 @@
           "files": []
         }
       },
-      "@angular-devkit/build-angular": {
-        "type": "npm",
-        "name": "@angular-devkit/build-angular",
-        "data": {
-          "version": "0.901.0",
-          "files": []
-        }
-      },
-      "codelyzer": {
-        "type": "npm",
-        "name": "codelyzer",
-        "data": {
-          "version": "~5.0.1",
-          "files": []
-        }
-      },
-      "jest-preset-angular": {
-        "type": "npm",
-        "name": "jest-preset-angular",
-        "data": {
-          "version": "8.1.2",
-          "files": []
-        }
-      },
-      "@nrwl/jest": {
-        "type": "npm",
-        "name": "@nrwl/jest",
-        "data": {
-          "version": "9.2.2",
-          "files": []
-        }
-      },
-      "jest": {
-        "type": "npm",
-        "name": "jest",
-        "data": {
-          "version": "25.2.3",
-          "files": []
-        }
-      },
-      "@types/jest": {
-        "type": "npm",
-        "name": "@types/jest",
-        "data": {
-          "version": "25.1.4",
-          "files": []
-        }
-      },
-      "ts-jest": {
-        "type": "npm",
-        "name": "ts-jest",
-        "data": {
-          "version": "25.2.1",
-          "files": []
-        }
-      },
-      "cypress": {
-        "type": "npm",
-        "name": "cypress",
-        "data": {
-          "version": "^4.1.0",
-          "files": []
-        }
-      },
-      "@nrwl/cypress": {
-        "type": "npm",
-        "name": "@nrwl/cypress",
-        "data": {
-          "version": "9.2.2",
-          "files": []
-        }
-      },
-      "@nrwl/node": {
-        "type": "npm",
-        "name": "@nrwl/node",
-        "data": {
-          "version": "9.2.2",
-          "files": []
-        }
-      },
       "@nestjs/schematics": {
         "type": "npm",
         "name": "@nestjs/schematics",
@@ -2146,6 +2018,158 @@
         "name": "@nestjs/testing",
         "data": {
           "version": "^6.8.3",
+          "files": []
+        }
+      },
+      "@nrwl/cypress": {
+        "type": "npm",
+        "name": "@nrwl/cypress",
+        "data": {
+          "version": "9.2.2",
+          "files": []
+        }
+      },
+      "@nrwl/jest": {
+        "type": "npm",
+        "name": "@nrwl/jest",
+        "data": {
+          "version": "9.2.2",
+          "files": []
+        }
+      },
+      "@nrwl/nest": {
+        "type": "npm",
+        "name": "@nrwl/nest",
+        "data": {
+          "version": "9.2.2",
+          "files": []
+        }
+      },
+      "@nrwl/node": {
+        "type": "npm",
+        "name": "@nrwl/node",
+        "data": {
+          "version": "9.2.2",
+          "files": []
+        }
+      },
+      "@nrwl/workspace": {
+        "type": "npm",
+        "name": "@nrwl/workspace",
+        "data": {
+          "version": "9.2.2",
+          "files": []
+        }
+      },
+      "@schematics/angular": {
+        "type": "npm",
+        "name": "@schematics/angular",
+        "data": {
+          "version": "^10.1.1",
+          "files": []
+        }
+      },
+      "@types/jest": {
+        "type": "npm",
+        "name": "@types/jest",
+        "data": {
+          "version": "25.1.4",
+          "files": []
+        }
+      },
+      "@types/node": {
+        "type": "npm",
+        "name": "@types/node",
+        "data": {
+          "version": "~8.9.4",
+          "files": []
+        }
+      },
+      "codelyzer": {
+        "type": "npm",
+        "name": "codelyzer",
+        "data": {
+          "version": "~5.0.1",
+          "files": []
+        }
+      },
+      "cypress": {
+        "type": "npm",
+        "name": "cypress",
+        "data": {
+          "version": "^4.1.0",
+          "files": []
+        }
+      },
+      "dotenv": {
+        "type": "npm",
+        "name": "dotenv",
+        "data": {
+          "version": "6.2.0",
+          "files": []
+        }
+      },
+      "eslint": {
+        "type": "npm",
+        "name": "eslint",
+        "data": {
+          "version": "6.8.0",
+          "files": []
+        }
+      },
+      "jest": {
+        "type": "npm",
+        "name": "jest",
+        "data": {
+          "version": "25.2.3",
+          "files": []
+        }
+      },
+      "jest-preset-angular": {
+        "type": "npm",
+        "name": "jest-preset-angular",
+        "data": {
+          "version": "8.1.2",
+          "files": []
+        }
+      },
+      "prettier": {
+        "type": "npm",
+        "name": "prettier",
+        "data": {
+          "version": "1.19.1",
+          "files": []
+        }
+      },
+      "ts-jest": {
+        "type": "npm",
+        "name": "ts-jest",
+        "data": {
+          "version": "25.2.1",
+          "files": []
+        }
+      },
+      "ts-node": {
+        "type": "npm",
+        "name": "ts-node",
+        "data": {
+          "version": "~7.0.0",
+          "files": []
+        }
+      },
+      "tslint": {
+        "type": "npm",
+        "name": "tslint",
+        "data": {
+          "version": "~6.0.0",
+          "files": []
+        }
+      },
+      "typescript": {
+        "type": "npm",
+        "name": "typescript",
+        "data": {
+          "version": "~3.8.3",
           "files": []
         }
       }
@@ -2233,6 +2257,11 @@
           "type": "static",
           "source": "landing",
           "target": "@angular/platform-browser"
+        },
+        {
+          "type": "static",
+          "source": "landing",
+          "target": "@angular/router"
         },
         {
           "type": "static",
@@ -2401,30 +2430,31 @@
       "@nestjs/core": [],
       "@nestjs/platform-express": [],
       "reflect-metadata": [],
+      "@angular-devkit/build-angular": [],
       "@angular/cli": [],
-      "@nrwl/workspace": [],
-      "@types/node": [],
-      "dotenv": [],
-      "ts-node": [],
-      "tslint": [],
-      "eslint": [],
-      "typescript": [],
-      "prettier": [],
-      "@nrwl/nest": [],
       "@angular/compiler-cli": [],
       "@angular/language-service": [],
-      "@angular-devkit/build-angular": [],
-      "codelyzer": [],
-      "jest-preset-angular": [],
-      "@nrwl/jest": [],
-      "jest": [],
-      "@types/jest": [],
-      "ts-jest": [],
-      "cypress": [],
-      "@nrwl/cypress": [],
-      "@nrwl/node": [],
       "@nestjs/schematics": [],
-      "@nestjs/testing": []
+      "@nestjs/testing": [],
+      "@nrwl/cypress": [],
+      "@nrwl/jest": [],
+      "@nrwl/nest": [],
+      "@nrwl/node": [],
+      "@nrwl/workspace": [],
+      "@schematics/angular": [],
+      "@types/jest": [],
+      "@types/node": [],
+      "codelyzer": [],
+      "cypress": [],
+      "dotenv": [],
+      "eslint": [],
+      "jest": [],
+      "jest-preset-angular": [],
+      "prettier": [],
+      "ts-jest": [],
+      "ts-node": [],
+      "tslint": [],
+      "typescript": []
     }
   },
   "fileMap": {
@@ -2809,7 +2839,7 @@
       {
         "file": "apps/landing/src/app/app.component.html",
         "ext": ".html",
-        "mtime": 1599958004533.171
+        "mtime": 1599958393546.1753
       },
       {
         "file": "apps/landing/src/app/app.component.spec.ts",
@@ -2824,12 +2854,12 @@
       {
         "file": "apps/landing/src/app/app.module.ts",
         "ext": ".ts",
-        "mtime": 1599956246398.918
+        "mtime": 1599958658480.4202
       },
       {
-        "file": "apps/landing/src/app/nav/footer/footer.component.css",
-        "ext": ".css",
-        "mtime": 1599956246398.918
+        "file": "apps/landing/src/app/app.routes.ts",
+        "ext": ".ts",
+        "mtime": 1599958133402.9475
       },
       {
         "file": "apps/landing/src/app/nav/footer/footer.component.html",
@@ -2844,37 +2874,52 @@
       {
         "file": "apps/landing/src/app/nav/footer/footer.component.ts",
         "ext": ".ts",
-        "mtime": 1599956246400.9128
-      },
-      {
-        "file": "apps/landing/src/app/nav/menu/menu.component.css",
-        "ext": ".css",
-        "mtime": 1599956246400.9128
-      },
-      {
-        "file": "apps/landing/src/app/nav/menu/menu.component.html",
-        "ext": ".html",
-        "mtime": 1599956246401.9102
-      },
-      {
-        "file": "apps/landing/src/app/nav/menu/menu.component.spec.ts",
-        "ext": ".ts",
-        "mtime": 1599956246401.9102
-      },
-      {
-        "file": "apps/landing/src/app/nav/menu/menu.component.ts",
-        "ext": ".ts",
-        "mtime": 1599956246402.9075
+        "mtime": 1599958061941.2122
       },
       {
         "file": "apps/landing/src/app/nav/nav.module.ts",
         "ext": ".ts",
-        "mtime": 1599956246402.9075
+        "mtime": 1599958043610.8237
+      },
+      {
+        "file": "apps/landing/src/app/pages/home/home.component.css",
+        "ext": ".css",
+        "mtime": 1599958658479.4246
+      },
+      {
+        "file": "apps/landing/src/app/pages/home/home.component.html",
+        "ext": ".html",
+        "mtime": 1599958658459.5063
+      },
+      {
+        "file": "apps/landing/src/app/pages/home/home.component.spec.ts",
+        "ext": ".ts",
+        "mtime": 1599958658466.4568
+      },
+      {
+        "file": "apps/landing/src/app/pages/home/home.component.ts",
+        "ext": ".ts",
+        "mtime": 1599958658474.4358
       },
       {
         "file": "apps/landing/src/assets/.gitkeep",
         "ext": "",
         "mtime": 1599956246403.9048
+      },
+      {
+        "file": "apps/landing/src/assets/styles/components/components.scss",
+        "ext": ".scss",
+        "mtime": 1599958630491.8435
+      },
+      {
+        "file": "apps/landing/src/assets/styles/components/_footer.scss",
+        "ext": ".scss",
+        "mtime": 1599958630491.8435
+      },
+      {
+        "file": "apps/landing/src/assets/styles/styles.scss",
+        "ext": ".scss",
+        "mtime": 1599958215436.965
       },
       {
         "file": "apps/landing/src/environments/environment.prod.ts",
@@ -2907,14 +2952,14 @@
         "mtime": 1599956246406.8965
       },
       {
-        "file": "apps/landing/src/styles.scss",
-        "ext": ".scss",
-        "mtime": 1599956246406.8965
-      },
-      {
         "file": "apps/landing/src/test-setup.ts",
         "ext": ".ts",
         "mtime": 1599956246407.8938
+      },
+      {
+        "file": "apps/landing/src/_redirects",
+        "ext": "",
+        "mtime": 1599958260686.276
       },
       {
         "file": "apps/landing/tsconfig.app.json",
