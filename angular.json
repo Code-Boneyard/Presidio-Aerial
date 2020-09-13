@@ -23,9 +23,12 @@
             "aot": true,
             "assets": [
               "apps/landing/src/favicon.ico",
-              "apps/landing/src/assets"
+              "apps/landing/src/assets",
+              "apps/landing/src/_redirects"
             ],
-            "styles": ["apps/landing/src/styles.scss"],
+            "styles": [
+              "apps/landing/src/assets/styles/styles.scss"
+            ],
             "scripts": []
           },
           "configurations": {
