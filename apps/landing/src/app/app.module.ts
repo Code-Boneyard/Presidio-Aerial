@@ -7,6 +7,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutes } from './app.routes';
 import { FooterComponent } from './nav/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -17,8 +18,11 @@ import { HomeComponent } from './pages/home/home.component';
   imports: [
     BrowserModule, 
     RouterModule,
+    SharedMo
     AppRoutes,
-    HttpClientModule, 
+    HttpClientModule,
+    BrowserAnimationsModule, 
+
   ],
   providers: [
 
